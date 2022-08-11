@@ -11,7 +11,7 @@ h1,
 h2,
 h3,
 span {
-  color: black;
+  color: #898989;
   text-align: center;
   line-height: 1.25;
 }
@@ -77,6 +77,7 @@ li {
 
 .section__title {
   margin-bottom: 24px;
+  color: #535353;
 }
 
 /* nav bar style */
@@ -97,7 +98,7 @@ nav {
 
 .navbar__link--anch {
   margin: 0 12px;
-  color: #242424;
+  color: #545454;
   font-weight: 700;
 }
 
@@ -105,7 +106,7 @@ nav {
   background-color: #5f0e30;
   padding: 8px 20px;
   border-radius: 50px;
-  color: white;
+  color: #545454;
   transition: all 300ms ease;
 }
 
@@ -114,15 +115,15 @@ nav {
 }
 .website__creator {
   font-size: 24px;
-  color: white;
+  color: #552c2c;
   margin: 0 12px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: #5f0e30;
   border-spacing: 10px;
   border: #4a4949;
-  border-style: dashed;
   border-width: 10px;
+  padding: 8px 20px;
 }
 /* personal info seciton */
 #personal-info {
@@ -183,11 +184,12 @@ nav {
   font-size: 20px;
   margin-bottom: 28px;
   animation: fade-up 650ms 600ms backwards;
+  color: #898989;
 }
 
 .personal-info__link {
   font-size: 20px;
-  color: #4d2020;
+  color: #552c2c;
   padding: 0 16px;
 }
 

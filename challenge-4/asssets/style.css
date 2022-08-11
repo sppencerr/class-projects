@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#welcome, #quiz, #inputScore, #highScores {
+    width: 70%;
+}
+
+#quiz, #inputScore, #highScores {
+    display: none;
+}
+
+.jumbotron {
+    background-color: white;
+}
