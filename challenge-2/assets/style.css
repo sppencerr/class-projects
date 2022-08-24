@@ -1,4 +1,4 @@
-/* linking font to make it look pretty */
+/* Importing font */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 * {
   font-family: "Quicksand", sans-serif;
@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* generic styling */
+/* general styles */
 h1,
 h2,
 h3,
@@ -26,7 +26,7 @@ a {
   text-decoration: none;
   position: relative;
 }
-/* hover effect here */
+/* hover effect  */
 .link__hover-effect:after {
   content: "";
   position: absolute;
@@ -80,7 +80,7 @@ li {
   color: #535353;
 }
 
-/* nav bar style */
+/* nav bar appearance */
 
 nav {
   height: 100px;
@@ -342,5 +342,8 @@ nav {
 .project__description--para,
 .project__description--link {
   text-align: left;
+  color: #fff;
+}
+.language__name {
   color: #fff;
 }
